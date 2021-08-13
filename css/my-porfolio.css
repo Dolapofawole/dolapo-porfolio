@@ -275,13 +275,14 @@ i.fas.fa-address-card, i.fas.fa-envelope-square{
     }
     .navbar{
         padding: 10px;
+        font-size: 15px;
         
         
     }
     .navbar a{
         color: white;
         text-decoration: none;
-        padding: 0;
+        padding: 5px;
         
     }
    
