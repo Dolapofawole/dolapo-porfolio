@@ -1,0 +1,290 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.navbar{
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+    background-color:#008c58;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    
+    
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+.navbar a:hover{
+    background-color: rgb(99, 93, 93);
+}
+
+.container{
+    display: flex;
+    justify-content:space-around;
+    background-image: url('../images/imagelike.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+
+}
+
+*{box-sizing: border-box;
+}
+.sideword{
+
+    padding-top: 80px;
+    text-align: center;
+    
+}
+
+.intro-one{
+    color: white;
+    font-size: 30px;
+}
+i.fa.fa-angle-right::before{
+    font-size: 15px;
+}
+.intro-two{
+    font-size: 40px;
+    color: rgb(187, 186, 184);
+    
+}
+.intro-three{
+    font-size: 20px;
+    color: rgb(204, 248, 7);
+    padding: 20px;
+}
+.intro-four a{
+    color:rgb(226, 153, 17);
+    text-decoration: none;
+    font-size: 25px;
+}
+ .about-two img{
+    float: right;
+    padding: 20px;
+
+}
+
+/* (about css here) */
+
+.about-onebeforecontainer{
+    font-size: 25px;
+    color:rgb(226, 153, 17);
+    text-align: center;
+}
+
+.about-one{
+    font-size: 30px;
+    color:  rgb(226, 153, 17);
+    text-align: center;
+    
+}
+.about-two{
+    
+    color: honeydew;
+    font-size: 20px;
+    word-spacing: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: auto;
+}
+.about-two a{
+        color:rgb(226, 153, 17);
+        text-decoration: none;    
+    }
+    .headline{
+        color: white;
+        font-size: 15px;
+    }
+
+    /* (service css is here) */
+
+    #service-onebeforecontainer{
+        font-size: 30px;
+        color: rgb(226, 153, 17);
+        text-align: center;
+    
+    }
+
+    .service-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly; 
+    
+
+    }
+    .frame-one{
+        width: auto;
+        margin: 10px;
+        font-size: 20px;
+        color: white;
+    
+    }
+    
+    .image-sample{
+        width: auto;
+        margin: 10px;
+        
+    
+    }
+    .image-sample img{
+            max-width: 100%;
+            padding: 50px;
+    }
+    
+    .text{
+        width: 500px;
+        
+    }  
+
+    /* (ambition css here) */
+#ambition-onebeforecontainer{
+    font-size: 30px;
+    color: rgb(226, 153, 17);
+    text-align: center;
+}
+.ambition-container p{
+    font-size: 20px;
+    color: honeydew;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* (contact css here) */
+
+#contact-onebeforecontainer{
+    font-size: 30px;
+    color: rgb(226, 153, 17);
+    text-align: center;
+    
+
+}
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.contact-sideword{
+    width: auto;
+    margin: 10px;
+    color: white;
+}
+.inbox-form{
+    width: auto;
+    margin: 10px;
+
+}
+
+.text-one{
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+}
+.text-two{
+    font-size: 15px;
+    color: white;
+    width: auto;
+}
+p input{
+    background-color: rgb(124, 119, 119);
+    width: 600px;
+    padding: 10px;
+    color: rgb(209, 202, 202);
+    border-radius: 10px;
+}
+form{
+    font-size: 20px;
+    color: white;
+    
+}
+textarea{
+    background-color: rgb(124, 119, 119);
+    width: 600;
+    padding: 10px;
+    color: rgb(209, 202, 202);
+    height: 150px;
+    border-radius: 10px;
+}
+mark{
+    background-color: rgb(226, 153, 17);
+}
+
+.submit{
+    text-align: center;
+    
+}
+.submit input{
+    width: 100px;
+    color:  rgb(235, 234, 231);
+    font-size: 20px;
+    background-color:#008c58;
+    
+  
+}
+.submit input:hover{
+    background-color: black;
+}
+.footer{
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}
+i.fas.fa-address-card, i.fas.fa-envelope-square{
+    color: white;
+    font-size: 50px;
+    
+}
+
+    
+    @media (max-width:800px){
+        .about-two img{
+            float: right;
+            padding: 45px;
+        
+        }
+        .text{
+            width: auto;
+            
+        } 
+        p input{
+            background-color: rgb(124, 119, 119);
+            width: 100%;
+            padding: 10px;
+            color: rgb(209, 202, 202);
+            border-radius: 10px;
+        } 
+
+    textarea{
+        background-color: rgb(124, 119, 119);
+        width: 100%;
+        padding: 10px;
+        color: rgb(209, 202, 202);
+        height: 150px;
+        border-radius: 10px;
+    }
+    .navbar{
+        padding: 10px;
+        
+        
+    }
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        
+    }
+   
+    }
+    
+    
