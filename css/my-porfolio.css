@@ -29,7 +29,7 @@ body{
     background-image: url('../images/imagelike.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 800px;
 
 
 }
@@ -38,7 +38,7 @@ body{
 }
 .sideword{
 
-    padding-top: 80px;
+    padding-top: 130px;
     text-align: center;
     
 }
@@ -65,6 +65,9 @@ i.fa.fa-angle-right::before{
     text-decoration: none;
     font-size: 25px;
 }
+.intro-four a:hover{
+    color:white
+}
  .about-two img{
     float: right;
     padding: 20px;
@@ -77,12 +80,19 @@ i.fa.fa-angle-right::before{
     font-size: 25px;
     color:rgb(226, 153, 17);
     text-align: center;
+    margin-top: 50px;
 }
 
 .about-one{
     font-size: 30px;
     color:  rgb(226, 153, 17);
     text-align: center;
+    
+}
+.about-oneheading{
+    font-size: 30px;
+    color:  rgb(226, 153, 17);
+    padding: 10px;
     
 }
 .about-two{
@@ -186,7 +196,7 @@ i.fa.fa-angle-right::before{
 
 .text-one{
     font-size: 20px;
-    text-align: center;
+
     width: auto;
 }
 .text-two{
